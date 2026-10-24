@@ -1,9 +1,15 @@
 <?php 
-//Kaoutar Ait El Himeur
-#date 17/10/2026
-/*le but d'exercice est 
-manupulation des constantes
+
+/*Nom et prénom:Ait El Himeur Kaoutar
+Date:17/10/2026
+manipulation des constnte
 */
-$const"fssm";
+// définition du nom de l'etablissement avec const
+
+const ETABLISSEMENT ="fssm";
+#definition des notes et seuil on utilisant define()
+define("NOTE_MIN",0);
+define("SEUIL",10);
+define("NOTE_MAX",20);
 
 ?>
