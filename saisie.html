@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      Nom : AIT EL HIMEUR KAOUTAR
+      Objectif : Formulaire de saisie des notes avec méthode POST
+      Date : 25/10/2026
+    -->
+    <meta charset="UTF-8">
+    <title>Exercice 4.3 : Formulaire POST</title>
+</head>
+<body>
+
+<h1>Exercice 4.3 : Saisie des notes</h1>
+
+<form action="traitement.php" method="POST">
+    <label for="nom">Nom:</label><br>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="note_info">Note Informatique :</label><br>
+    <input type="number" step="0.5" id="note_info" name="note_info" required><br><br>
+
+    <label for="note_math">Note Mathématiques :</label><br>
+    <input type="number" step="0.5" id="note_math" name="note_math" required><br><br>
+
+    <input type="submit" value="Valider et calculer">
+</form>
+
+</body>
+</html>

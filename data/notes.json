@@ -1,0 +1,20 @@
+[
+    {
+        "nom": "kaoutar",
+        "note_info": 20,
+        "note_math": 20,
+        "moyenne": 20
+    },
+    {
+        "nom": "lamis",
+        "note_info": 18,
+        "note_math": 15,
+        "moyenne": 16.5
+    },
+    {
+        "nom": "NOUR",
+        "note_info": 17,
+        "note_math": 17,
+        "moyenne": 17
+    }
+]

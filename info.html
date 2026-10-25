@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+    <!--
+  Nom : AIT EL HIMEUR KAOUTAR
+  Objectif : Formulaire en Get
+  Date : 25/10/2026
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 4.2 : Formulaire GET</title>
+</head>
+<body>
+
+<h1>Exercice 4.2 : Saisie des informations</h1>
+
+<form action="info.php" method="GET">
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="prenom">Prénom :</label><br>
+    <input type="text" id="prenom" name="prenom" required><br><br>
+
+    <label for="sexe">Sexe :</label><br>
+    <select id="sexe" name="sexe">
+        <option value="M">Masculin</option>
+        <option value="F">Féminin</option>
+    </select><br><br>
+
+    <input type="submit" value="Envoyer">
+</form>
+
+</body>
+</html>

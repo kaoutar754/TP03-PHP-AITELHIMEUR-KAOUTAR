@@ -6,7 +6,7 @@ manipulation des constnte
 */
 // définition du nom de l'etablissement avec const
 
-const ETABLISSEMENT ="fssm";
+const ETABLISSEMENT ="Faculté Des Sciences Semlalia";
 #definition des notes et seuil on utilisant define()
 define("NOTE_MIN",0);
 define("SEUIL",10);
